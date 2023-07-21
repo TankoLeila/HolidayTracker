@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Create Your Holiday with us</title>
+    <title>Create your holiday if not</title>
 </head>
 
-<body class=" w-full h-screen">
-    <!-- sectionPrincipale -->
-    <section class="bg-gray-100">
+<body class="w-full bg-white">
+    <section class="bg-white h-full">
         <!-- navBar logo -->
-        <section class="bg-purple-100">
+        <section class="bg-white lg:bg-gray-50">
             <div class="flex justify-between">
 
                 <div>
@@ -22,19 +21,33 @@
                 </div>
 
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-[100px] h-[70px] m-5">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="h-[100px] w-[70%]">
+                        <path
+                            d="M15.5002 0.355347C6.99016 0.355347 0.0834961 7.26201 0.0834961 15.772C0.0834961 24.282 6.99016 31.1887 15.5002 31.1887C24.0102 31.1887 30.9168 24.282 30.9168 15.772C30.9168 7.26201 24.0102 0.355347 15.5002 0.355347ZM15.5002 4.98035C18.0593 4.98035 20.1252 7.04618 20.1252 9.60535C20.1252 12.1645 18.0593 14.2303 15.5002 14.2303C12.941 14.2303 10.8752 12.1645 10.8752 9.60535C10.8752 7.04618 12.941 4.98035 15.5002 4.98035ZM15.5002 26.872C11.646 26.872 8.23891 24.8987 6.25016 21.9078C6.29641 18.8399 12.4168 17.1595 15.5002 17.1595C18.5681 17.1595 24.7039 18.8399 24.7502 21.9078C22.7614 24.8987 19.3543 26.872 15.5002 26.872Z"
+                            fill="#999999" />
                     </svg>
+
 
                 </div>
 
             </div>
         </section>
 
-        <section class="">
-            <img src="/Illustrations/womenHoliday.webp" alt="Holiday" class="bg-cover bg-center h-screen w-[700px] flex items-center justify-center">
+
+
+        <section class="flex flex-col items-center justify-between h-[500px] px-5">
+            <div class="flex justify-left w-full">
+                <h1 class="text-xl font-bold md:hidden">Holidays</h1>
+            </div>
+
+            <div class="flex flex-col items-center justify-center gap-y-4">
+                <img src="/Illustrations/noHolidayCreate.png" alt="">
+                <span class="font-semibold text-lg">No holiday has been created</span>
+                <button class="bg-blue-500 w-[200px] rounded-lg text-white text-lg font-semibold  hover:bg-white
+                     text-white hover:text-blue-500 py-2 px-4 border border-black">Create Holiday</button>
+            </div>
+
         </section>
     </section>
 </body>
